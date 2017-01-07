@@ -55,7 +55,7 @@
 	<body>
 		<center><h1>Destress</h1></center>
 			<center><h2>What symptoms do you have?</h2></center>
-			<form>
+			<form action="result.php" method="POST">
 				<div class= "questions1">
 					<input type="checkbox" name="checkbox[]" value="headaches" id = "1" onclick="alertCheck('1')"> Frequent headaches, jaw clenching or pain<br>
 					<input type="checkbox" name="checkbox[]" value="teeth" id = "2" onclick="alertCheck('2')"> Gritting, grinding teeth<br>
@@ -113,6 +113,10 @@
 					<input type="checkbox" name="checkbox[]" value="food" id = "48" onclick="alertCheck('48')"> Increased or decreased appetite<br>
 					<input type="checkbox" name="checkbox[]" value="gamble" id = "49" onclick="alertCheck('49')"> Excessive gambling or impulse buying<br>
 					<input type="checkbox" name="checkbox[]" value="depression" id = "50" onclick="alertCheck('50')"> Depression, frequent or wild mood swings<br>
+
+					<!-- worry about this case later
+					<input type="checkbox" name="checkbox[]" value="none" id = "51" onclick="alertCheck('51')"> None of the above<br>
+					-->
 			  </div>
 
 				<div class = "submit">

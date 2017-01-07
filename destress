@@ -1,0 +1,120 @@
+<html>
+	<head>
+		<style>
+
+		.questions1
+		{
+			float: left;
+			padding: 10px 6px 6px;
+			font-size: 150%;
+			line-height: 150%;
+		}
+
+		.questions2
+		{
+			float: left;
+			padding: 10px 6px 6px;
+			font-size: 150%;
+			line-height: 150%;
+		}
+
+		.questions3
+		{
+			float: left;
+			padding: 10px 6px 6px;
+			font-size: 150%;
+			line-height: 150%;
+		}
+
+		.submit
+		{
+			position: absolute;
+			left: 50%;
+			width: 100px;
+			margin-left: -50px;
+			bottom:60px;
+			font-size: 150%;
+}
+		}
+
+		</style>
+
+		<title>Destress App</title>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<center><h1>Destress</h1></center>
+
+			<form>
+				<div class= "questions1">
+					<input type="checkbox" name="checkbox[]" value="headaches"> Frequent headaches, jaw clenching or pain<br>
+					<input type="checkbox" name="checkbox[]" value="teeth"> Gritting, grinding teeth<br>
+					<input type="checkbox" name="checkbox[]" value="Stuttering or stammering"> Stuttering or stammering<br>
+					<input type="checkbox" name="checkbox[]" value="tremors"> Tremors, trembling of lips, hands<br>
+					<input type="checkbox" name="checkbox[]" value="pain"> Neck ache, back pain, muscle spasms<br>
+					<input type="checkbox" name="checkbox[]" value="faint"> Light headedness, faintness, dizziness<br>
+					<input type="checkbox" name="checkbox[]" value="Sounds"> Ringing, buzzing or “popping sounds<br>
+					<input type="checkbox" name="checkbox[]" value="Blush or Sweat"> Stuttering or stammering<br>
+					<input type="checkbox" name="checkbox[]" value="Nightmares"> Insomnia, nightmares, disturbing dreams<br>
+					<input type="checkbox" name="checkbox[]" value="Concentration"> Difficulty concentrating, racing thoughts<br>
+					<input type="checkbox" name="checkbox[]" value="knowledge"> Trouble learning new information<br>
+					<input type="checkbox" name="checkbox[]" value="forgetful"> Forgetfulness, disorganization, confusion<br>
+					<input type="checkbox" name="checkbox[]" value="hesitant"> Difficulty in making decisions<br>
+					<input type="checkbox" name="checkbox[]" value="overloaded"> Feeling overloaded or overwhelmed<br>
+					<input type="checkbox" name="checkbox[]" value="crying"> Frequent crying spells or suicidal thoughts<br>
+					<input type="checkbox" name="checkbox[]" value="lonely">  Feelings of loneliness or worthlessness<br>
+										<input type="checkbox" name="checkbox[]" value="Cold"> Cold or sweaty hands, feet<br>
+				</div>
+
+				<div class = "questions2">
+					<input type="checkbox" name="checkbox[]" value="Lack of trying"> Little interest in appearance, punctuality<br>
+					<input type="checkbox" name="checkbox[]" value="Nervous Ticks"> Nervous habits, fidgeting, feet tapping<br>
+					<input type="checkbox" name="checkbox[]" value="Mouth"> Dry mouth, problems swallowing<br>
+					<input type="checkbox" name="checkbox[]" value="Sick"> Frequent colds, infections, herpes sores<br>
+					<input type="checkbox" name="checkbox[]" value="bumps"> Rashes, itching, hives, “goose bumps”<br>
+					<input type="checkbox" name="checkbox[]" value="Allergy"> Unexplained or frequent “allergy” attacks<br>
+					<input type="checkbox" name="checkbox[]" value="Angry"> Increased frustration, irritability, edginess<br>
+					<input type="checkbox" name="checkbox[]" value="Overreacting"> Overreaction to petty annoyances<br>
+					<input type="checkbox" name="checkbox[]" value="Accident Prone"> Increased number of minor accidents<br>
+					<input type="checkbox" name="checkbox[]" value="pain"> Heartburn, stomach pain, nausea<br>
+					<input type="checkbox" name="checkbox[]" value="OCD"> Obsessive or compulsive behavior<br>
+					<input type="checkbox" name="checkbox[]" value="Belching"> Excess belching, flatulence<br>
+					<input type="checkbox" name="checkbox[]" value="Work lacking"> Reduced work efficiency or productivity<br>
+					<input type="checkbox" name="checkbox[]" value="poop"> Constipation, diarrhea, loss of control<br>
+					<input type="checkbox" name="checkbox[]" value="Liar"> Lies or excuses to cover up poor work<br>
+					<input type="checkbox" name="checkbox[]" value="Panic"> Difficulty breathing, frequent sighing<br>
+					<input type="checkbox" name="checkbox[]" value="speech"> Rapid or mumbled speech<br>
+				</div>
+
+				<div class = "questions3">
+					<input type="checkbox" name="checkbox[]" value="sudden"> Excessive defensiveness or suspiciousness<br>
+					<input type="checkbox" name="checkbox[]" value="panic attack"> Sudden attacks of life threatening panic<br>
+					<input type="checkbox" name="checkbox[]" value="Increase heart rate"> Chest pain, palpitations, rapid pulse<br>
+					<input type="checkbox" name="checkbox[]" value="Block"> Problems in communication, sharing<br>
+					<input type="checkbox" name="checkbox[]" value="Introvert"> Social withdrawal and isolation<br>
+					<input type="checkbox" name="checkbox[]" value="Pee"> Frequent urination<br>
+					<input type="checkbox" name="checkbox[]" value="Sex">  Diminished sexual desire or performance<br>
+					<input type="checkbox" name="checkbox[]" value="Diet"> Weight gain or loss without diet<br>
+					<input type="checkbox" name="checkbox[]" value="Tired"> Constant tiredness, weakness, fatigue<br>
+					<input type="checkbox" name="checkbox[]" value="Druggie"> Frequent use of over-the-counter drugs<br>
+					<input type="checkbox" name="checkbox[]" value="Anxiety"> Excess anxiety, worry, guilt, nervousness<br>
+					<input type="checkbox" name="checkbox[]" value="Angry"> Increased anger, frustration, hostility<br>
+					<input type="checkbox" name="checkbox[]" value="smoke"> Increased smoking, alcohol or drug use<br>
+					<input type="checkbox" name="checkbox[]" value="food"> Increased or decreased appetite<br>
+					<input type="checkbox" name="checkbox[]" value="gamble"> Excessive gambling or impulse buying<br>
+					<input type="checkbox" name="checkbox[]" value="depression"> Depression, frequent or wild mood swings<br>
+			  </div>
+
+				<div class = "submit">
+					<input type="submit" value="Submit">
+				</div>
+			</form>
+	</body>
+</html>

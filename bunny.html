@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="bunny.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script>
+		$(document).ready(function(){
+		    function EarRotation(e, angle) {
+		    	var ang = angle;
+
+			    setInterval(function () {
+			    	
+			        	e.css({'transition': 'all 1s ease-in-out',
+			        	'transform': 'rotate(' + ang + 'deg)'});
+			        	ang = -ang;
+			        }, 1000);
+			}
+
+			function ArmRotation(e, angle) {
+		    	var ang = angle;
+
+			    setInterval(function () {
+			    	
+			        	e.css({'transition': 'all 1s ease-in-out',
+			        	'transform': 'rotate(' + ang + 'deg)'});
+			        	ang = -ang;
+			        }, 1000);
+			}
+
+			 EarRotation($("#earL"), 5);
+			 EarRotation($("#earR"),-5);
+			 ArmRotation($("#armL"),5);
+			 ArmRotation($("#armR"),-5);
+		    
+		});
+
+
+		</script>
+	</head>
+
+	<body>
+
+	<div id="bunny">
+		<div id="upper">
+			<div id="face"></div>
+			<div id="earL"></div>
+			<div id="earR"></div>
+		</div>
+		<div id="lower">
+			<div id="Bbody"></div>
+			<div id="armL"></div>
+			<div id="armR"></div>
+		</div>
+	</div>
+
+
+	</body>
+</html>

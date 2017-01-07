@@ -1,0 +1,72 @@
+#bunny {
+	width: 400px;
+	height: 700px;
+	position: relative;
+	margin: auto;
+}
+
+#face {
+	width: 400px;
+	height: 700px;
+	background-image: url("bunny/face.png");
+	background-size: 400px 700px;
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 0;
+}
+
+#earL {
+	width: 400px;
+	height: 700px;
+	background-image: url("bunny/earL.png");
+	background-size: 400px 700px;
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+}
+
+#earR {
+	width: 400px;
+	height: 700px;
+	background-image: url("bunny/earR.png");
+	background-size: 400px 700px;
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+}
+
+#Bbody {
+	width: 400px;
+	height: 700px;
+	background-image: url("bunny/body.png");
+	background-size: 400px 700px;
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	z-index: -2;
+}
+
+#armL {
+	width: 400px;
+	height: 700px;
+	background-image: url("bunny/armL.png");
+	background-size: 400px 700px;
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	z-index: -1;
+}
+
+#armR {
+	width: 400px;
+	height: 700px;
+	background-image: url("bunny/armR.png");
+	background-size: 400px 700px;
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	z-index: -1;
+}

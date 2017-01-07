@@ -1,0 +1,86 @@
+#index {
+	background-image: url("destress pic.jpg");
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-align: center;
+}
+
+#main_heading {
+	font-size: 1000%;
+}
+
+#continue {
+	vertical-align: middle;
+	text-align: center;
+}
+
+.button {
+	display: inline-block;
+	border-radius: 4px;
+	background-color: #0099E5;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 28px;
+	padding: 20px;
+	width: 175px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+}
+
+.button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.button span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+.button:hover span {
+	padding-right: 25px;
+}
+
+.button:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+
+.questions1 {
+	float: left;
+	padding: 10px 6px 6px;
+	font-size: 150%;
+	line-height: 150%;
+}
+
+.questions2 {
+	float: left;
+	padding: 10px 6px 6px;
+	font-size: 150%;
+	line-height: 150%;
+}
+
+.questions3 {
+	float: left;
+	padding: 10px 6px 6px;
+	font-size: 150%;
+	line-height: 150%;
+}
+
+.submit {
+	position: absolute;
+	left: 50%;
+	width: 100px;
+	margin-left: -50px;
+	bottom:60px;
+	font-size: 150%;
+}

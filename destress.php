@@ -3,13 +3,17 @@
 
 	<div id="content_de">
 		<p>
-		<h1>Destress</h1>
+		<h1>De-stress</h1>
 		<h2>What symptoms do you have?</h2>
-
-		<div id="button_next"></div>
-		<div id="button_prev"></div>
 		</p>
 	</div>
+		<div id="whee">
+
+
+		<div id = "questions">
+
+			<div id="button_next"> 	&#8594; </div>
+			<div id="button_prev"> 	&#8592; </div>
 			<form action="result.php" method="POST">
 				<div id= "questions1">
 					<p>
@@ -30,6 +34,7 @@
 					<input type="checkbox" name="checkbox[]" value="crying" id = "15" onclick="alertCheck('15')"> Frequent crying spells or suicidal thoughts<br>
 					<input type="checkbox" name="checkbox[]" value="lonely" id = "16" onclick="alertCheck('16')">  Feelings of loneliness or worthlessness<br>
 					<input type="checkbox" name="checkbox[]" value="Cold" id = "17" onclick="alertCheck('17')"> Cold or sweaty hands, feet<br>
+					<p align="center">1/3</p>
 					</p>
 				</div>
 
@@ -52,6 +57,7 @@
 					<input type="checkbox" name="checkbox[]" value="Liar" id = "32" onclick="alertCheck('32')"> Lies or excuses to cover up poor work<br>
 					<input type="checkbox" name="checkbox[]" value="Panic" id = "33" onclick="alertCheck('33')"> Difficulty breathing, frequent sighing<br>
 					<input type="checkbox" name="checkbox[]" value="speech" id = "34" onclick="alertCheck('34')"> Rapid or mumbled speech<br>
+					<p align="center">2/3</p>
 					</p>
 				</div>
 
@@ -72,7 +78,8 @@
 					<input type="checkbox" name="checkbox[]" value="smoke" id = "47" onclick="alertCheck('47')"> Increased smoking, alcohol or drug use<br>
 					<input type="checkbox" name="checkbox[]" value="food" id = "48" onclick="alertCheck('48')"> Increased or decreased appetite<br>
 					<input type="checkbox" name="checkbox[]" value="gamble" id = "49" onclick="alertCheck('49')"> Excessive gambling or impulse buying<br>
-					<input type="checkbox" name="checkbox[]" value="depression" id = "50" onclick="alertCheck('50')"> Depression, frequent or wild mood swings<br>
+					<input type="checkbox" name="checkbox[]" value="depression" id = "50" onclick="alertCheck('50')"> Depression, frequent or wild mood swings<br> <br>
+					<p align="center">3/3</p>
 					</p>
 					<!-- worry about this case later
 					<input type="checkbox" name="checkbox[]" value="none" id = "51" onclick="alertCheck('51')"> None of the above<br>
@@ -84,6 +91,8 @@
 					</div>
 			</form>
 				</div>
+			</div>
+			</div>
 
 		<script>
 			function alertCheck(id) {

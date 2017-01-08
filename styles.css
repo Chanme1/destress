@@ -85,15 +85,28 @@ h2{
 	right: 0;
 }
 
+#whee {
+	position: relative;
+
+}
+
+#questions{
+	position: relative;
+	margin: auto;
+	background: rgba(255, 255, 255, 0.7);
+	width: 500px;
+	height: 430px;
+}
+
 #questions1 {
 	float: left;
 	padding: 10px 6px 6px;
 	text-align:left;
 	line-height: 150%;
-	background: rgba(255, 255, 255, 0.7);
+
 	position:absolute;
-	top: 150px;
-	left: 200px;
+	top: 0px;
+	left: 0px;
 	font-size: 16px;
 }
 
@@ -103,11 +116,10 @@ h2{
 	text-align:left;
 	line-height: 150%;
 	position:absolute;
-	top: 150px;
-	left: 200px;
+	top: 0px;
+	left: 0px;
 	font-size: 16px;
-	background: rgba(255, 255, 255, 0.7);
-	
+
 }
 
 #questions3 {
@@ -116,30 +128,35 @@ h2{
 	text-align:left;
 	line-height: 150%;
 	position:absolute;
-	top: 150px;
-	left: 200px;
+	top: 0px;
+	left: 0px;
 	font-size: 16px;
-	background: rgba(255, 255, 255, 0.7);
 	
 }
 
 .submit {
 	position: absolute;
-	left: 50%;
 	width: 100px;
-	margin-left: -50px;
-	bottom:60px;
+	top: 500px;
 	font-size: 150%;
 }
 
 #button_next {
 	width: 100px;
-	height: 100px;
-	background-color: red;
+	height: 50px;
+	position: absolute;
+	left: 550px;
+	top: 50%;
+	text-align: center;
+	font-size: 72px;
 }
 
-#button_preV {
+#button_prev {
 	width: 100px;
-	height: 100px;
-	background-color: blue;
+	height: 50px;
+	position: absolute;
+	left: -150px;
+	top: 50%;
+	text-align: center;
+	font-size: 72px;
 }

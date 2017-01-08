@@ -119,5 +119,23 @@
 		</div>
 
 	</div>
+
+	<?php
+		include 'database_login.php';
+
+		// choose a random motivational quote from the database
+		$rows = $pdo->query("SELECT quote FROM quotes");
+		$num = 0;
+
+		foreach ($rows as $row) {
+			$quotes[] = $row['quote'];
+			$num++;
+		}
+
+		$rand_int = rand(1, $num);
+
+		$random_quote = $quotes[$rand_int - 1];
+	?>
+
 </div>
 <?php include 'footer.php';?>

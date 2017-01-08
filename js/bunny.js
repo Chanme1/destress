@@ -21,6 +21,18 @@ $(document).ready(function(){
 			        }, 1000);
 			}
 
+			function UpperRotation(e, angle) {
+		    	var ang = angle;
+
+			    setInterval(function () {
+			    	
+			        	e.css({'transition': 'all 1s ease-in-out',
+			        	'transform': 'rotate(' + ang + 'deg)'});
+			        	ang = -ang;
+			        }, 1000);
+			}
+
+			 UpperRotation($("#upper"), -1);
 			 EarRotation($("#earL"), 5);
 			 EarRotation($("#earR"),-5);
 			 ArmRotation($("#armL"),5);

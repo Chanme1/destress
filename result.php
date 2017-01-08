@@ -1,20 +1,22 @@
 <?php include 'header_bunny.php';?>
 <?php
-		include 'database_login.php';
+	include 'database_login.php';
 
-		// choose a random motivational quote from the database
-		$rows = $pdo->query("SELECT quote FROM quotes");
-		$num = 0;
+	// choose a random motivational quote from the database
+	$rows = $pdo->query("SELECT * FROM quotes");
+	$num = 0;
 
-		foreach ($rows as $row) {
-			$quotes[] = $row['quote'];
-			$num++;
-		}
+	foreach ($rows as $row) {
+		$quotes[] = $row['quote'];
+		$quoter[] = $row['quoter'];
+		$num++;
+	}
 
-		$rand_int = rand(1, $num);
+	$rand_int = rand(1, $num);
 
-		$random_quote = $quotes[$rand_int - 1];
-	?>
+	$random_quote = $quotes[$rand_int - 1];
+	$random_quoter = $quoter[$rand_int - 1];
+?>
 <div id="content_de">
 	<h1>De-stress</h1>
 
@@ -23,7 +25,7 @@
 		$count = count($checked_arr);
 
 		echo "<center><h3>You selected " . $count . " symptoms out of 50.</h3></center>";
-		echo $random_quote . "<br><br><br>";
+		echo '"' . $random_quote . '" ~' . $random_quoter . "<br><br><br>";
 
 		$high = "
 		<div id='high'>

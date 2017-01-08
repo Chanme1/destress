@@ -1,18 +1,48 @@
-#index {
-	background-image: url("destress pic.jpg");
+body {
+	background-image: url("images/crumpled_looseleaf_paper_by_cliffski.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: Courier New;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	text-align: center;
-}
-
-#main_heading {
-	font-size: 1000%;
-}
-
-#continue {
+#content {
 	vertical-align: middle;
 	text-align: center;
+	margin-top: 210px;
+	font-size: 16px;
+}
+
+#content_de {
+	vertical-align: middle;
+	text-align: center;
+	font-size: 16px;
+	position: relative;
+}
+
+h1{
+	font-variant: small-caps;
+	font-size:42px;
+	font-weight: bold;
+
+}
+
+h2{
+	font-size: 24px;
+}
+
+#continue_button{
+	width:224px;
+	height: 81px;
+	background-image: url("images/continue.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: auto;
+	-webkit-transition: background-image 1.0s, color 1.0s;
+    transition: background-image 1.0s,  color 1.0s;
+}
+
+#continue_button:hover{
+	background-image: url("images/continue_hover.png");
 }
 
 .button {
@@ -55,25 +85,42 @@ h1, h2, h3, h4, h5, h6 {
 	right: 0;
 }
 
-.questions1 {
+#questions1 {
 	float: left;
 	padding: 10px 6px 6px;
-	font-size: 150%;
+	text-align:left;
 	line-height: 150%;
+	background: rgba(255, 255, 255, 0.7);
+	position:absolute;
+	top: 150px;
+	left: 200px;
+	font-size: 16px;
 }
 
-.questions2 {
+#questions2 {
 	float: left;
 	padding: 10px 6px 6px;
-	font-size: 150%;
+	text-align:left;
 	line-height: 150%;
+	position:absolute;
+	top: 150px;
+	left: 200px;
+	font-size: 16px;
+	background: rgba(255, 255, 255, 0.7);
+	
 }
 
-.questions3 {
+#questions3 {
 	float: left;
 	padding: 10px 6px 6px;
-	font-size: 150%;
+	text-align:left;
 	line-height: 150%;
+	position:absolute;
+	top: 150px;
+	left: 200px;
+	font-size: 16px;
+	background: rgba(255, 255, 255, 0.7);
+	
 }
 
 .submit {
@@ -83,4 +130,16 @@ h1, h2, h3, h4, h5, h6 {
 	margin-left: -50px;
 	bottom:60px;
 	font-size: 150%;
+}
+
+#button_next {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+}
+
+#button_preV {
+	width: 100px;
+	height: 100px;
+	background-color: blue;
 }

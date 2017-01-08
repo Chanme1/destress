@@ -130,10 +130,12 @@ h2{
 }
 
 .submit {
-	position: absolute;
+	position: relative;
 	width: 100px;
-	top: 500px;
+	left:170px;
 	font-size: 150%;
+	
+
 }
 
 #button_next {
@@ -154,4 +156,26 @@ h2{
 	top: 50%;
 	text-align: center;
 	font-size: 72px;
+}
+#contentz{
+	background: rgba(255, 255, 255, 0.7);
+	padding: 10px;
+	position:relative;
+	margin-left:200px;
+	height: 500px;
+	width:500px;
+
+}
+
+#high {
+	text-align: left;
+	
+}
+
+#medium{
+	text-align: left;
+}
+
+#low {
+	text-align: left;
 }

@@ -76,13 +76,15 @@
 				<input type="checkbox" name="checkbox[]" value="smoke" id = "47" onclick="alertCheck('47')"> Increased smoking, alcohol or drug use<br>
 				<input type="checkbox" name="checkbox[]" value="food" id = "48" onclick="alertCheck('48')"> Increased or decreased appetite<br>
 				<input type="checkbox" name="checkbox[]" value="gamble" id = "49" onclick="alertCheck('49')"> Excessive gambling or impulse buying<br>
-				<input type="checkbox" name="checkbox[]" value="depression" id = "50" onclick="alertCheck('50')"> Depression, frequent or wild mood swings<br> <br>
+				<input type="checkbox" name="checkbox[]" value="depression" id = "50" onclick="alertCheck('50')"> Depression, frequent or wild mood swings<br><br>
 				<p align="center">3/3</p>
 				</p>
+
 
 				<div class = "submit">
 					<input type="submit" value="Submit">
 				</div>
+				
 			</div>
 		</form>
 	</div>

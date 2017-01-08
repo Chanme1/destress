@@ -1,8 +1,9 @@
 #bunny {
 	width: 400px;
 	height: 700px;
-	position: relative;
-	margin: auto;
+	position: absolute;
+	left: 550px;
+	top: -100px;
 }
 
 #face {

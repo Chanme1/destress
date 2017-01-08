@@ -1,5 +1,5 @@
 body {
-	background-image: url("images/crumpled_looseleaf_paper_by_cliffski.jpg");
+	background-image: url("../images/crumpled_looseleaf_paper_by_cliffski.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	font-family: Courier New;
@@ -33,7 +33,7 @@ h2{
 #continue_button{
 	width:224px;
 	height: 81px;
-	background-image: url("images/continue.png");
+	background-image: url("../images/continue.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	margin: auto;
@@ -42,7 +42,7 @@ h2{
 }
 
 #continue_button:hover{
-	background-image: url("images/continue_hover.png");
+	background-image: url("../images/continue_hover.png");
 }
 
 .button {
@@ -83,11 +83,6 @@ h2{
 .button:hover span:after {
 	opacity: 1;
 	right: 0;
-}
-
-#whee {
-	position: relative;
-
 }
 
 #questions{

@@ -8,7 +8,7 @@
 #face {
 	width: 400px;
 	height: 700px;
-	background-image: url("bunny/face.png");
+	background-image: url("../bunny/face.png");
 	background-size: 400px 700px;
 	position:absolute;
 	top: 0px;
@@ -19,7 +19,7 @@
 #earL {
 	width: 400px;
 	height: 700px;
-	background-image: url("bunny/earL.png");
+	background-image: url("../bunny/earL.png");
 	background-size: 400px 700px;
 	position:absolute;
 	top: 0px;
@@ -30,7 +30,7 @@
 #earR {
 	width: 400px;
 	height: 700px;
-	background-image: url("bunny/earR.png");
+	background-image: url("../bunny/earR.png");
 	background-size: 400px 700px;
 	position:absolute;
 	top: 0px;
@@ -41,7 +41,7 @@
 #Bbody {
 	width: 400px;
 	height: 700px;
-	background-image: url("bunny/body.png");
+	background-image: url("../bunny/body.png");
 	background-size: 400px 700px;
 	position:absolute;
 	top: 0px;
@@ -52,7 +52,7 @@
 #armL {
 	width: 400px;
 	height: 700px;
-	background-image: url("bunny/armL.png");
+	background-image: url("../bunny/armL.png");
 	background-size: 400px 700px;
 	position:absolute;
 	top: 0px;
@@ -63,7 +63,7 @@
 #armR {
 	width: 400px;
 	height: 700px;
-	background-image: url("bunny/armR.png");
+	background-image: url("../bunny/armR.png");
 	background-size: 400px 700px;
 	position:absolute;
 	top: 0px;

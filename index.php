@@ -1,6 +1,4 @@
 <?php include 'header.php';?>
-	
-	<body id="index">
 
 	<div id="content">
 		<h1 id="main_heading">De-stress</h1>

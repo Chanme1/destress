@@ -1,5 +1,20 @@
 <?php include 'header_bunny.php';?>
+<?php
+		include 'database_login.php';
 
+		// choose a random motivational quote from the database
+		$rows = $pdo->query("SELECT quote FROM quotes");
+		$num = 0;
+
+		foreach ($rows as $row) {
+			$quotes[] = $row['quote'];
+			$num++;
+		}
+
+		$rand_int = rand(1, $num);
+
+		$random_quote = $quotes[$rand_int - 1];
+	?>
 <div id="content_de">
 	<h1>De-stress</h1>
 
@@ -7,7 +22,8 @@
 		$checked_arr = $_POST['checkbox'];
 		$count = count($checked_arr);
 
-		echo "<center><h3>You selected " . $count . " symptoms out of 50.</h3></center><br><br>";
+		echo "<center><h3>You selected " . $count . " symptoms out of 50.</h3></center>";
+		echo $random_quote . "<br><br><br>";
 
 		$high = "
 		<div id='high'>
@@ -120,22 +136,7 @@
 
 	</div>
 
-	<?php
-		include 'database_login.php';
-
-		// choose a random motivational quote from the database
-		$rows = $pdo->query("SELECT quote FROM quotes");
-		$num = 0;
-
-		foreach ($rows as $row) {
-			$quotes[] = $row['quote'];
-			$num++;
-		}
-
-		$rand_int = rand(1, $num);
-
-		$random_quote = $quotes[$rand_int - 1];
-	?>
+	
 
 </div>
 <?php include 'footer.php';?>
